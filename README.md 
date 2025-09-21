@@ -1,0 +1,22 @@
+牧野淳一郎先生の`パソコン物理実地指導`を久々に動かしてみる。
+
+https://jun-makino.sakura.ne.jp/pcphysics/programs/index.html
+
+→   インクルードファイルなど
+    各プログラムの冒頭４行のインクルードファイルを次のように変える．
+
+```
+#include <math.h>
+#include <iostream>
+using namespace std;
+```
+
+
+→   harmonic5a.cpp をコンパイルする時:
+    テキストの p. 30-31 のプログラムは修正せずにそのままにする。 
+    今時の g++ ではエラーになるが、コンパイルオプション -fpermissive をつけるとコンパイルできる。
+
+→   gnuplot のコマンド形式
+    gnuplot のコマンド形式が変わったので、 
+    set data style ... を set style data ... に変更。
+
