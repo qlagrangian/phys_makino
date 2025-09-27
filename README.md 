@@ -20,3 +20,5 @@ using namespace std;
     gnuplot のコマンド形式が変わったので、 
     set data style ... を set style data ... に変更。
 
+
+
